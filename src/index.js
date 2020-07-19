@@ -3,6 +3,7 @@
  */
 const express = require("express");
 const routes = require('./routes');
+const cors = require('cors');
 
 /**
  * App Variables
@@ -28,4 +29,5 @@ app.listen(port, () => {
  console.log(`Listening to requests on http://localhost:${port}`);
 });
 
-app.use('/', routes)
+app.use(cors());
+app.use('/', routes);
