@@ -1,0 +1,26 @@
+{
+  "name": "footprint-server",
+  "version": "1.0.0",
+  "description": "Footprint server for footprint client ",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-gk/footprint-server.git"
+  },
+  "author": "Gayan Kumarage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-gk/footprint-server/issues"
+  },
+  "homepage": "https://github.com/i-gk/footprint-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
